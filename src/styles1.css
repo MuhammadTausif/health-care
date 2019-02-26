@@ -1,53 +1,44 @@
-/* You can add global styles to this file, and also import other style files */
-@import '~bootstrap/dist/css/bootstrap.min.css';
-body {
+ body {
 	margin: 0;
 	padding: 0;
  }
- 
-
- .has-search .form-control {
-	padding-left: 2.375rem;
-	/* display: inline; */
+ font-family: Arial;
 }
 
-.my_header{
-	margin-left: 0px;
+* {
+  box-sizing: border-box;
 }
 
-
-.main-img{
-	border-radius: 7%;
-	float: left;
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
 }
 
-.main-1-text {
-	float: right;
+form.example button {
+  
+  width: 20%;
+  padding: 10px;
+  background: #2196F3;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
 }
 
-.my_search{
-	/* margin-left: -40px; */
-	margin: 5px;
-	z-index: 2000;
+form.example button:hover {
+  background: #0b7dda;
 }
 
-.has-search .form-control-feedback {
-    position: absolute;
-    z-index: 2;
-    display: block;
-    width: 2.375rem;
-    height: 2.375rem;
-    line-height: 2.375rem;
-    text-align: center;
-    pointer-events: none;
-	color: #aaa;
-	/* display: inline; */
+form.example::after {
+  content: "";
+  clear: both;
+  display: block;
 }
-
-.blog_option{
-	padding: 5px;
-}
- 
  #background 
 { 
 	 left: 0px; 
